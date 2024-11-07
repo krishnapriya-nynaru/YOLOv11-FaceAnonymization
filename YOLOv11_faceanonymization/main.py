@@ -38,7 +38,7 @@ while cap.isOpened():
         for box, cls in zip(boxes, clss):
             class_name = names[int(cls)]
             if class_name == target_class:
-                annotator.box_label(box, color=colors(int(cls), True), label=class_name)
+                # annotator.box_label(box, color=colors(int(cls), True), label=class_name)
 
                 # Extract person region for face detection
                 person_region = im0[int(box[1]):int(box[3]), int(box[0]):int(box[2])]
