@@ -78,6 +78,7 @@ The model processes input videos as follows:
 - The processed video is displayed in a window and saved as an output file.
 
 ## Results
+![alt_text](https://github.com/krishnapriya-nynaru/YOLOv11-FaceAnonymization/blob/main/YOLOv11_faceanonymization/output_videos/result_video.gif)
 
 ## Contributing
 Contributions are welcome! To contribute to this project:
